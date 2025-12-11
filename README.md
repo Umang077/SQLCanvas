@@ -1,19 +1,68 @@
-This project includes 3 pages a dynamic website containing 2 different types EDITORS and a HOME Page. This is part of Atlan Frontend Assignment, build using React + Vite + CSS. It enables users to run SQL queries in an online editor, and analyze the output obtained as a result of running the queries.
+SQLCanvas
 
-The live link fro the project is : 
+This project is a dynamic React-based web application featuring two SQL editors and a home page. It enables users to upload CSV files, run SQL queries directly in the browser, and analyze the resulting output tables.
+
+🔗 Live Demo:
 https://atlan-assignment-sql-runner-007-epf8fifpi.vercel.app/
 
-The dummy data used in the application is obtained from (https://github.com/graphql-compose/graphql-compose-examples/tree/master/examples/northwind/data/csv).
+🚀 Features
+Editor 1 — CSV Upload + Auto Query Generator
 
-For Editor1:
-I have created a file uploading button in whcih you have to upload a csv file containing any type of data. After uploading and submiting, the sql queries with respect to the given data will be generated automatically
-and for the selected query the output data table will be generated.
+Upload any CSV file to generate a dynamic dataset.
 
-For Editor2:
-I have given three sql query which can be selected pr typed and the output for it will be generated accordingly and the dummy data stored is taken from the github demo data link 
+Automatically generates SQL queries based on the uploaded schema.
+
+Displays output tables for selected queries.
+
+Fully interactive and supports multiple data types.
+
+Editor 2 — Manual SQL Runner
+
+Includes built-in sample SQL queries.
+
+Allows typing custom SQL queries.
+
+Displays query output mapped to sample Northwind dataset.
+
+Includes extra features:
+
+Query history tracking
+
+Delete past queries
+
+Export query result as CSV
+
+Sample Data
+
+Demo data is sourced from the Northwind dataset:
 https://github.com/graphql-compose/graphql-compose-examples/tree/master/examples/northwind/data/csv
-I have provided some additional feautures linke histry stroing delete and exporting the given data into csv file.
 
-Frameworks + Libraries used
-React JS - JavaScript library for building user interfaces that efficiently updates and renders components in response to data changes, enabling the development of dynamic and interactive web applications.
-Vite - Vite is a fast and modern build tool for web development that focuses on quick development server start-up, efficient development workflows, and optimized production builds for JavaScript and TypeScript projects.
+🧰 Tech Stack
+Frontend
+
+React JS – For UI components and dynamic rendering.
+
+Vite – For fast development server and optimized builds.
+
+CSS – For styling and responsive layout.
+
+📂 Project Structure
+/src
+  /components
+  /pages
+  /utils
+  /data
+
+📦 Installation
+git clone <repo-url>
+cd <project-folder>
+npm install
+npm run dev
+
+✨ Future Enhancements
+
+Support for JOIN queries across multiple user-uploaded CSVs.
+
+Data visualization (charts/graphs) for query results.
+
+Save projects locally using IndexedDB.
