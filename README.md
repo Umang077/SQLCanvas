@@ -6,7 +6,7 @@ This project is a dynamic React-based web application featuring two SQL editors 
 https://atlan-assignment-sql-runner-007-epf8fifpi.vercel.app/
 
 🚀 Features
-Editor 1 — CSV Upload + Auto Query Generator
+Editor 1: (CSV Upload + Auto Query Generator)
 
 Upload any CSV file to generate a dynamic dataset.
 
@@ -16,7 +16,7 @@ Displays output tables for selected queries.
 
 Fully interactive and supports multiple data types.
 
-Editor 2 — Manual SQL Runner
+Editor 2: (Manual SQL Runner)
 
 Includes built-in sample SQL queries.
 
@@ -40,11 +40,11 @@ https://github.com/graphql-compose/graphql-compose-examples/tree/master/examples
 🧰 Tech Stack
 Frontend
 
-React JS – For UI components and dynamic rendering.
+React JS - For UI components and dynamic rendering.
 
-Vite – For fast development server and optimized builds.
+Vite - For fast development server and optimized builds.
 
-CSS – For styling and responsive layout.
+CSS - For styling and responsive layout.
 
 📂 Project Structure
 /src
